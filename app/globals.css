@@ -1,0 +1,33 @@
+html, body {
+  margin: 0;
+  min-height: 100vh;
+  background: #021321;
+  color: #edf5ff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: radial-gradient(circle at top, rgba(20, 50, 80, 0.7), rgba(2, 19, 33, 1) 45%);
+}
+
+button, input, select, textarea {
+  font: inherit;
+}
+
+input, select, textarea {
+  border: 1px solid rgba(120, 150, 190, 0.5);
+  background: rgba(8, 22, 35, 0.9);
+  border-radius: 12px;
+  color: #edf5ff;
+  padding: 12px 14px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+button {
+  cursor: pointer;
+}
